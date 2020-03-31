@@ -1,0 +1,107 @@
+    1  git --version
+    5  git init
+    6  git config --global user.name 'Saesha Senger'
+    7  git config --global user.email 'saesha.senger@gmail.com'
+    8  git add Home.html
+    9  git status
+   10  git rom --cached Home.html
+   11  git rm --cached Home.html
+   12  git add .
+   13  git status
+   14  git commit
+   15  git status
+   16  git checkout login
+   17  git branch login
+   18  git checkout login
+   20  git add .
+   21  git commit -m login form
+   22  git commit -m 'login form'
+   23  git checkout master
+   24  git remote
+   25  git add README.md
+   26  git remote add origin https://github.com/smsenger/professional-property.git
+   27  git remote
+   28  git push -u origin master
+   30  git add .
+   31  git commit -m 'Added readme'
+   32  git push
+   33  git checkout login
+   34  git commit -m 'changed link in navigaion'
+   35  git add home.html
+   36  git add Development.html
+   37  git commit -m 'added changed files with updated navigation links'
+   38  git status
+   39  git version
+   40  git add .
+   41  git status
+   42  git add Home.html
+   43  git status
+   44  git status
+   45  git add .
+   46  git status
+   47  git commit
+   48  git status
+   49  git checkout login
+   50  git status
+   51  git --version
+   52  git init
+   53  git config --global user.name 'Saesha Senger'
+   54  git config --global user.email 'saesha.senger@gmail.com'
+   55  git add .
+   56  git status
+   57  git rm --cached login.html
+   58  git status
+   59  git commit -m 'full upload from PersonalWebsite folder'
+   60  git add .
+   61  git status
+   62  git rm --cached login.html
+   63  git status
+   64  git commit
+   65  git checkout master
+   66  git add .
+   67  git rm --cached login.html
+   68  git status
+   69  git commit -m 'full upload of updated website docs minus login'
+   70  git status
+   71  git push origin master
+  178  git update-index --chmod+=x hell0.sh
+  183  git --version
+  195  git clone https://github.com/radishmouse/shell-exercise-find-the-cat.git
+  311  mkdir hell-git
+  313  mv hell-git hello-git
+  314  cd hello-git
+  316  git init
+  318  ls -la .git/
+  321  git add rainyday.txt
+  322  git status
+  323  git commit -m "adds rainyday file"
+  324  git status
+  325  git config --global user.name "Saesha Senger"
+  326  git config --global user.email "saesha.senger@gmail.com"
+  327  git status
+  328  git add rainyday.txt
+  329  git commit -m "adds information about rain"
+  331  git status
+  332  git log
+  333  git status
+  339  git init
+  340  git status
+  344  git add experiment1.txt
+  345  git status
+  346  git commit -m "adds experiment1 file"
+  347  git status
+  348  git log
+  352  git add experiment2.txt
+  353  git status
+  354  git commit -m "adds experiment2 file"
+  355  git status
+  356  git log
+  358  git status
+  359  git add experiment2.txt
+  360  git status
+  361  git commit -m "adds initial content to experiment2"
+  362  git status
+  363  git log
+  365  history | grep git
+  366  history | grep git | pbcopy
+  367  history | grep git > commands-with-git
